@@ -11,6 +11,29 @@ li {
   list-style-type: none;
 }
 
+section {
+  background-color: hsl(0, 0%, 96%);
+}
+
+/* 
+
+LANDING PAGE
+
+*/
+
+#landing-page {
+  min-width: 100vh;
+}
+
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1000px;
+}
+
 /* 
 
 NAVIGATION
@@ -30,7 +53,7 @@ nav {
 #personal-logo {
   width: 50px;
   height: 50px;
-  filter: invert(1);
+  /* filter: invert(1); */
 }
 
 .nav__link--list {
