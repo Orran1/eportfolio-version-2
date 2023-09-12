@@ -79,6 +79,70 @@
         <a href="#projects" class="scroll">
             <div class="scroll__icon click"></div>
         </a>
+        <div class="modal">
+            <div class="modal__half modal__about">
+                <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
+                <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer</h4>
+                <p class="modal__para">
+                    I'm a 21 year-old Australian <b class="orange">frontend software engineer</b> with experience
+                    developing websites for
+                    top-tech companies like Google and Canva.
+                    <br>
+                    I currently solve extremely difficult engineering problems every day with React, TypeScript and MobX
+                    in Canva's Video team.
+                </p>
+                <div class="modal__languages">
+                    <figure class="modal__language">
+                        <img class="modal__language--img" src="./assets/HTML5_Badge.svg.png" alt="">
+                        <span class="language__name">HTML</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img class="modal__language--img" src="./assets/CSS.webp" alt="">
+                        <span class="language__name">CSS</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img class="modal__language--img" src="./assets/javascript.webp" alt="">
+                        <span class="language__name">JavaScript</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img class="modal__language--img" src="./assets/typescript.webp" alt="">
+                        <span class="language__name">TypeScript</span>
+                    </figure>
+                </div>
+            </div>
+            <div class="modal__half modal__contact">
+                <h3 class="modal__title modal__title--contact">
+                    Let's have a chat!
+                </h3>
+                <h4 class="modal__sub-title modal__sub-title--contact">
+                    I'm currently open for new opportunities
+                </h4>
+                <form id="contact__form" action="">
+                    <div class="form__item">
+                        <label class="form__item--label">Name</label>
+                        <input type="text" required name="user_name" class="input"></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label">Email</label>
+                        <input type="email" required name="user_email" class="input"></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label">Message</label>
+                        <textarea type="text" required name="message" class="input"></textarea>
+                    </div>
+                    <button id="contact__submit" class="form__submit">
+                        Send it my way
+                    </button>
+                </form>
+                <div class="modal__overlay modal__overlay--loading">
+                    <i class="fa-solid fa-spinner"></i>
+                </div>
+                <div class="modal__overlay modal__overlay--success">
+                    Thanks for the message! Looking forward to speaking to you soon.
+                </div>
+            </div>
+            <i class="fa-solid fa-xmark modal__exit click"></i>
+        </div>
     </section>
     <section id="projects">
         <div class="container">
@@ -188,7 +252,7 @@
                     link__hover-effect
                     link__hover-effect--white
                     ">
-                        Github
+                        GitHub
                     </a>
                     <a href="#" class="
                     footer__social--link
