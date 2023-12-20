@@ -13,7 +13,6 @@ body {
     rgb(255, 255, 255) 0%,
     rgb(234, 236, 255) 90%
   );
-  transition: all 300ms ease;
 }
 
 html {
